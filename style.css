@@ -44,10 +44,10 @@ Navigation Bar
 }
 
 /* 
-Cat Div
+Camel2 Div
 */
-#cat-div{
-	/* Fix cat div in the bottom left corner of the web page */
+#camel2-div{
+	/* Fix camel2 div in the bottom left corner of the web page */
 	position: fixed;
 	bottom: 0px;
 	left: 0px;
@@ -55,21 +55,21 @@ Cat Div
 	text-align: center;
 }
 
-#cat{
+#camel2{
 	width: 300px;
 	margin-top: 18px;
 }
 
-#cat-text{
+#camel2-text{
 	color: white;
 	background-color: black;
 	font-size: 32px;
 }
 
 /* 
-Parallax: Mountain and Ocean sections;
+Parallax: Dune and Abu Dhabi sections;
 */
-#mountain, #ocean{
+#dune, #abudhabi{
 	/* Set height of div to 100% */
 	height: 100%;
 	/* The bottom three background CSS settings create parallax effect */
@@ -78,20 +78,20 @@ Parallax: Mountain and Ocean sections;
 	background-position: center;
 }
 
-#mountain{
-	/* Set background image of mountain section using url() function */
+#dune{
+	/* Set background image of dune section using url() function */
 	background-image: url('Media/dune.jpg');
 }
 
-#ocean{
-	/* Set background image of ocean section using url() function */
+#abudhabi{
+	/* Set background image of abu dhabi section using url() function */
 	background-image: url('Media/abudhabi.jpg');
 }
 
 /* 
-Flower div inside Mountain section
+Camel2 div inside Dune section
 */
-#flower-div{
+#camel2-div{
     position: relative;
     width: 150px;
     text-align: center;
@@ -99,31 +99,31 @@ Flower div inside Mountain section
     left: calc(50% - 75px);
 }
 
-#flower{
+#camel2{
 	width: 100px;
 	margin-top: 25px;
 }
 
-#flower-text{
+#camel2-text{
 	color: white;
 }
 
 /* 
-Fish div inside Ocean section
+Boat div inside Abu Dhabi section
 */
-#fish-div{
+#boat-div{
     position: relative;
     width: 180px;
     text-align: center;
     left: calc(50% - 90px);
 }
 
-#fish-text{
+#boat-text{
 	color: black;
 	background: white;
 }
 
-#fish{
+#boat{
     width: 75px;
     display: block;
     margin: auto;
@@ -131,7 +131,7 @@ Fish div inside Ocean section
 }
 
 /* 
-Text sections after Mountain and Ocean sections
+Text sections after Dune and Abu Dhabi sections
 */
 .text-section{
 	/* Center text in the middle of browser using flexbox */
